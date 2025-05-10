@@ -4,6 +4,7 @@ A workflow to automatically assess image compliance against a brand’s guidelin
 
 
 An overview of the pipeline:
+![Screenshot 2025-05-10 at 12 52 03 PM](https://github.com/user-attachments/assets/29f6a40c-e031-407a-b9ef-f2e9bc991423)
 
 
 
