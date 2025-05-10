@@ -27,6 +27,6 @@ An overview of the pipeline:
    docker run --rm -p 8000:8000 --env-file .env brand-backend
 8. Test with Postman
    - Create a POST request to http://localhost:8000/check_brand_guidelines.
-   - Under Body select form‑data and add 2 keys (brand_kit and image). Upload the data of type "File"
+   - Under "Body" select form‑data and add 2 keys (brand_kit and image). Upload the data of type "File"
    - Hit send and get the response. 
        
