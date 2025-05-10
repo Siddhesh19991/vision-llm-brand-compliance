@@ -8,11 +8,11 @@ An overview of the pipeline:
 
 
 ## Features
-- Parses a brand‑kit (PDF format) to extract rules (logo, safe‑zone, color palette, typography)  
-- Builds a custom system prompt based on the rules for a vision language model  
-- Sends image + system prompt to Mistral’s VLM API and parses JSON scores  
-- Returns a 0–4 score with reasoning for each category  
-- Fully containerized with Docker
+- Parses a brand‑kit (PDF format) to extract rules (logo, safe‑zone, color palette, typography).
+- Builds a custom system prompt based on the rules for a vision language model.  
+- Sends image + system prompt to Mistral’s VLM API and outputs JSON scores.  
+- Returns a score (Range 0 - 4) with reasoning for each category.  
+- Containerized with Docker.
 
 ## Local Development
 1. Clone the repo
