@@ -20,10 +20,10 @@ def run_chain(brand_kit_path,image_path):
   Brand Guideline Input:
   {brand_guideline_info}
   """
-
+  
   brand_guideline_prompt = model_response(image_path=None,system_prompt= None, text_prompt=text_brand_prompt)
 
-
+  # the system prompt for the model to analyze the image along with the brand guideline prompt
   system_prompt = f"""
     You are a visual branding expert. You will receive an image and must:
     
