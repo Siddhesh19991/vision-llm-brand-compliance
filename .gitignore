@@ -1,0 +1,11 @@
+.env
+venv
+__pycache__/
+temp/
+code.ipynb
+AI_Engineer_assignment.pdf
+brand_kit.pdf
+neurons_1.png
+neurons_2.png
+neurons_3.png
+Neurons_brand_kit.pdf

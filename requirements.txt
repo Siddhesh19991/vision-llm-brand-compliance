@@ -1,0 +1,13 @@
+fastapi 
+uvicorn 
+langchain 
+pymupdf 
+pillow 
+opencv-python 
+transformers 
+torch
+pandas
+numpy
+python-multipart
+python-dotenv
+mistralai
