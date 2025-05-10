@@ -1,4 +1,4 @@
-#vision-llm-brand-compliance
+# vision-llm-brand-compliance
 
 A workflow to automatically assess image compliance against a brand’s guidelines (logo usage, safe‑zone, colors, typography) using a vision language model. 
 
@@ -17,7 +17,7 @@ An overview of the pipeline:
 ## Local Development
 1. Clone the repo
 2. Create a .env file and inside the file set:
-   ```MISTRAL_API_KEY = "add your API key here"
+   ``` MISTRAL_API_KEY = "add your API key here"
 3. Build the docker image
    docker build -t brand-backend .
 4. Run the container
