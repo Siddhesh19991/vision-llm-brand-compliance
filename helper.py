@@ -65,7 +65,7 @@ def toc(pdf_path):
   return toc_dict
 
 
-# Extracting all the infromation from the pages based on the table of contents 
+# Extracting all the information from the pages based on the table of contents 
 def extract_text_from_page(pdf_path):
   
   toc_dict = toc(pdf_path) 
