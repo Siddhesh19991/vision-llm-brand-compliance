@@ -4,7 +4,7 @@ from helper import extract_text_from_page, model_response, parse_llm_json, total
 def run_chain(brand_kit_path,image_path):
   brand_guideline_info = extract_text_from_page(brand_kit_path)
 
-  # to creat the system prompt to ensure it meets the brand guidelines 
+  # to creat the system prompt to ensure it meets the brand guideline
   text_brand_prompt = f"""
   You are generating a system prompt for a vision‑language model that assesses brand guideline compliance from images.
 
