@@ -6,7 +6,7 @@ import os
 
 app = FastAPI()
 
-#creating a temp directory to save the uploaded files
+#creating a directory to save the uploaded files
 os.makedirs("temp", exist_ok=True)
 
 
