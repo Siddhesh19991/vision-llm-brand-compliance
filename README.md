@@ -20,13 +20,13 @@ An overview of the pipeline:
 2. Create a .env file and inside the file set:
    ```bash
    MISTRAL_API_KEY = "add your API key here"
-4. Build the docker image
+3. Build the docker image
    ```bash
    docker build -t brand-backend .
-6. Run the container
+4. Run the container
    ```bash
    docker run --rm -p 8000:8000 --env-file .env brand-backend
-8. Test with Postman
+5. Test with Postman
    - Create a POST request to http://localhost:8000/check_brand_guidelines.
    - Under "Body" select form‑data and add 2 keys (brand_kit and image). Upload the data of type "File"
    - Hit send and get the response. 
